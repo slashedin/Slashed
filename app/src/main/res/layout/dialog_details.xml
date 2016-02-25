@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="Password"
+        android:maxLength="20"
+        android:gravity="center"
+        android:password="true"/>
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="Password"
+        android:maxLength="20"
+        android:gravity="center"
+        android:password="true"/>
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="Password"
+        android:maxLength="20"
+        android:gravity="center"
+        android:password="true"/>
+
+    <TextView
+        android:id="@+id/errorTV"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        tools:text="lol"
+        android:gravity="center"/>
+
+</LinearLayout>
