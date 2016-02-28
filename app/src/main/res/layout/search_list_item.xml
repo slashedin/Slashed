@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="5dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageIV"
+        android:padding="5dp"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:id="@+id/nameTV"
+        android:textSize="24dp"
+        android:textColor="@android:color/background_dark"
+        tools:text="Galaxy S5"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageIV"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail1TV"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        tools:text="Electric Blue"
+        android:layout_below="@+id/nameTV"
+        android:layout_toRightOf="@+id/imageIV"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail2TV"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        tools:text=", 32 GB"
+        android:layout_below="@+id/nameTV"
+        android:layout_toRightOf="@+id/detail1TV"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:id="@+id/sellerIV"
+        android:layout_alignBottom="@+id/imageIV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/priceTV"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:text="2500"
+        android:layout_toLeftOf="@+id/sellerIV"
+        android:layout_alignTop="@+id/sellerIV"
+        android:layout_alignBottom="@+id/sellerIV"/>
+
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. "
+        android:id="@+id/rsTV"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:text="Rs. "
+        android:layout_toLeftOf="@+id/priceTV"
+        android:layout_alignTop="@+id/priceTV"
+        android:layout_alignBottom="@+id/priceTV"/>
+
+</RelativeLayout>
